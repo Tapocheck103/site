@@ -31,5 +31,4 @@ function showWhy() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    document.getElementById("no").addEventListener("click", showWhy);
 });
