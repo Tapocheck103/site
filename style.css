@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    position: relative;
+    overflow: hidden;
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    position: relative;
+}
+
+button {
+    font-size: 24px;
+    padding: 15px 30px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    background-color: #ff4081;
+    color: white;
+}
+
+#no {
+    transition: 0.3s;
+    background-color: #ff5252;
+    position: relative;
+}
+
+#thank-you {
+    display: none;
+    font-size: 28px;
+    margin-top: 20px;
+    color: #4CAF50;
+}
