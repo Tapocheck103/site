@@ -2,7 +2,7 @@ let direction = 1; // 1 - вниз, -1 - вверх
 
 function moveNoButton() {
     let button = document.getElementById("no");
-    let step = 100; // Расстояние движения теперь 5 пикселей
+    let step = 150; // Расстояние движения теперь 5 пикселей
     
     // Получаем текущее положение кнопки относительно родителя
     let currentTop = parseInt(button.style.top) || 0;
