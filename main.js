@@ -24,11 +24,5 @@ function showThankYou() {
     document.querySelector(".buttons").style.display = "none";
     document.getElementById("thank-you").style.display = "block";
 }
-
-function showWhy() {
-    let whyText = document.getElementById("why-text");
-    whyText.style.display = "block";
-}
-
 document.addEventListener("DOMContentLoaded", () => {
 });
